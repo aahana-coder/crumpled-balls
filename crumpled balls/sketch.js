@@ -35,7 +35,7 @@ function draw() {
 }
 function keyPressed() {
 	if(keyCode=="39"){
-		Matter.Body.applyForce(p.body,p.body.position,{x:10,y:-20})
+		Matter.Body.applyForce(p.body,p.body.position,{x:130,y:-120})
 	}
 }
 
