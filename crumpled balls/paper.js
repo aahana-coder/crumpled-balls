@@ -4,7 +4,7 @@ class Paper{
             restitution:0.3,
             density:1
         }
-this.body=Bodies.circle(x,y,(r-20)/2)
+this.body=Bodies.circle(x,y,(r-20)/2,options)
 this.img=loadImage("paper.png")
 World.add(world,this.body)
 this.r=r
